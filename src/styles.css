@@ -1,7 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
 .App {
-  font-family: sans-serif;
+  font-family: Montserrat;
   text-align: center;
+  align-items: center;
+  margin: auto;
+  font-weight: bold;
+}
+span {
+  display: block;
+  font-weight: bold;
+}
+button {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  min-width: 7rem;
+}
+.adventure {
+  background-color: #dcfffb;
+}
+.heritage {
+  background-color: #eec4b6;
+}
+.nature {
+  background-color: #defde0;
 }
 ul {
   list-style: none;
+}
+img {
+  max-width: 15rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  max-width: 95vh;
+  margin: auto;
+  margin-bottom: 1rem;
+  background-color: beige;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
